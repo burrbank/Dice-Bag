@@ -1,0 +1,30 @@
+{
+  "name": "Dice-Bag",
+  "version": "1.0.0",
+  "description": "Dice roller bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burrbank/Dice-Bag"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/burrbank/Dice-Bag#readme",
+  "engines": {
+    "node": "8.4.0"
+  },
+  "dependencies": {
+    "bufferutil": "3.0.2",
+    "discord.js": "11.2.1",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "libsodium-wrappers": "0.5.4",
+    "node-opus": "0.2.7",
+    "opusscript": "0.0.3",
+    "sodium": "2.0.1",
+    "uws": "0.14.5"
+  }
+}
